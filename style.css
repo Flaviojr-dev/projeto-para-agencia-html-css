@@ -1,0 +1,89 @@
+body {
+    color: white;
+    background-color: #333333;
+    font-family:sans-serif;
+    margin: 0;
+}
+
+.hero-page {
+    background-image: url("imagens/9129518.jpg");
+    height: 500px;
+    background-size: cover;
+    padding-top: 1px;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 1px;
+    
+}
+
+.hero p {
+    background-color: rgba(0, 0, 0, .7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    border-bottom: 2px solid blue;
+}
+
+.hero-page nav ul {
+    text-align: right;
+    list-style-type: none;
+    margin: 20px 20px 0 0;
+    text-transform: uppercase;
+    
+}
+
+.hero-page nav li {
+    display: inline-block;
+    padding: 4px;
+    margin-top: 20px;
+}
+
+.hero-page a {
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    padding: 13px;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+article {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 1px;
+    padding-bottom: 20px;
+}
+
+article h1 {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 13px;
+    border-bottom: 2px solid;
+    margin-top: 3px;
+    text-transform: uppercase;
+}
+
+a {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 9px;
+    border-radius: 1px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-shadow: 2px 2px 2px black;
+}
